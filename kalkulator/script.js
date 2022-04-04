@@ -1,4 +1,4 @@
-// element html
+// define element
 const numbers = document.querySelectorAll('.number');
 const wholeCalc = document.querySelector('.calculator');
 const calcScreen = document.querySelector('.calculator-screen');
@@ -9,12 +9,12 @@ const decimal = document.querySelector('.decimal');
 const percen = document.querySelector('.percentage');
 const reset = document.querySelector('.reset');
 
-// variabel
+// define variabel
 let prevNumber = '';
 let calcOperation = '';
 let currentNum = '0';
 
-// funtion
+// define function
 const updateScreen = (number) => {
 	calcScreen.value = number;
 };
